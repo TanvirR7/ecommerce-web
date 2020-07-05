@@ -1,14 +1,14 @@
 .container{
 
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 body
 {
-    background-color: aqua;
+    background-image: linear-gradient(to bottom, rgb(193, 193, 250) 0%, rgb(233, 233, 247) 100%);
 }
 .orange-bg{
-    background-color: #f3e7e6;
+    background-color: #fadedb;
     border-radius: 10px;
 }
 .carousel-item{
@@ -24,7 +24,52 @@ padding: 20px 40px;
     background-image: linear-gradient(to bottom, #FF589b 0%, #FF136F 100%);
     color:#fff;
     border: none;
-    border-radius: 8px;
+    border-radius: 10px;
     padding:9px 25px;
     cursor: pointer;
+   
+}
+.cat1, .cat2, .cat3{
+    
+ 
+    padding: 10px 30px;
+
+}
+.cat1{
+    background-image: linear-gradient(to bottom, orange 0%, rgb(255, 219, 153));
+    border-radius: 8px; 
+}
+.cat2{
+    background-image: linear-gradient(to bottom, rgb(255, 0, 191) 0%, rgb(242, 180, 248));
+    border-radius: 8px;
+}
+.cat3{
+    background-image: linear-gradient(to bottom, rgb(17, 0, 255) 0%, rgb(167, 174, 236));
+    border-radius: 8px;
+}
+.categories h1{
+
+    color:white;
+}
+.categories img {
+    width:100px;
+}
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px lightgrey;
+}
+#contact{
+    height: 300px;
+}
+#contact h6{
+    color: gray;
+}
+
+footer{
+    text-align: center;
+}
+.hey:hover{
+    box-shadow: 20px 20px 20px dimgrey;
+    transition: 0.2s;
 }
